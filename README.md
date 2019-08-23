@@ -4,8 +4,8 @@ Aplicativo Android para gerenciamento de despesas, na qual são criadas carteira
 Funções implementadas:
 - Acesso a um banco SQLite;
 - Integração com o Google Maps;
-- Uso de BroadcastReceiver (compatível com o Aandroid Oreo);
-- Notificações tela;
+- Uso de BroadcastReceiver (compatível com o Android Oreo);
+- Notificações;
 - Exportação e compartilhamento da carteira em formato .CSV;
 
 Collab: www.github.com/jbossquare
