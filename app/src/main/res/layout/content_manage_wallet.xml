@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".view.ManageWalletView"
+    tools:showIn="@layout/app_bar_manage_wallet">
+
+
+    <!--<LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>-->
+
+
+    <TextView
+        android:id="@+id/text_total_geral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/total_geral"
+        android:textColor="#FFF"
+        android:textSize="10pt"
+        app:layout_constraintBottom_toTopOf="@+id/value_total_geral"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_total_assets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/total_assets"
+        android:textColor="#FFF"
+        android:textSize="10pt"
+        app:layout_constraintBottom_toTopOf="@+id/value_total_assets"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/value_total_geral" />
+
+    <TextView
+        android:id="@+id/text_total_liabilities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/total_liabilities"
+        android:textColor="#FFF"
+        android:textSize="10pt"
+        app:layout_constraintBottom_toTopOf="@+id/value_total_liabilities"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/value_total_assets" />
+
+    <TextView
+        android:id="@+id/value_total_geral"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="16dp"
+        android:text="TextView"
+        android:textColor="#A6DF70"
+        android:textSize="16pt"
+        app:layout_constraintBottom_toTopOf="@+id/text_total_assets"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_total_geral" />
+
+    <TextView
+        android:id="@+id/value_total_assets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="24dp"
+        android:text="TextView"
+        android:textColor="#A6DF70"
+        android:textSize="16pt"
+        app:layout_constraintBottom_toTopOf="@+id/text_total_liabilities"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_total_assets" />
+
+    <TextView
+        android:id="@+id/value_total_liabilities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="208dp"
+        android:text="TextView"
+        android:textColor="#A6DF70"
+        android:textSize="16pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_total_liabilities" />
+</android.support.constraint.ConstraintLayout>

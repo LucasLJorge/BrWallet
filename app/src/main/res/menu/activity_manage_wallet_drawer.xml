@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_walltet"
+            android:icon="@drawable/baseline_how_to_vote_black_48"
+            android:title="@string/my_wallet" />
+        <item
+            android:id="@+id/nav_add_asset"
+            android:icon="@drawable/baseline_add_black_48dp"
+            android:title="@string/add_asset" />
+        <item
+            android:id="@+id/nav_add_liability"
+            android:icon="@drawable/baseline_remove_black_48dp"
+            android:title="@string/add_liability" />
+        <item
+            android:id="@+id/nav_edit_wallet"
+            android:icon="@drawable/baseline_save_black_48dp"
+            android:title="@string/edit_wallet" />
+        <item
+            android:id="@+id/nav_export_wallet"
+            android:icon="@drawable/baseline_publish_black_48dp"
+            android:title="@string/export_wallet" />
+        <item
+            android:id="@+id/nav_delete_wallet"
+            android:icon="@drawable/baseline_delete_forever_24"
+            android:title="@string/delete_wallet" />
+        <item
+            android:id="@+id/nav_close_wallet"
+            android:icon="@drawable/baseline_how_to_vote_black_48"
+            android:title="@string/close_wallet" />
+    </group>
+</menu>
